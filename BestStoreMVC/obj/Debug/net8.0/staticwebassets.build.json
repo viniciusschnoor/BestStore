@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9DEZvFm/bEFECCng95SdYOqET7tqRLC0AnElqse5C8k=",
+  "Hash": "4iafj8kydZrKyRF6/wIe/MucCw5BHidJNHME+RZm59I=",
   "Source": "BestStoreMVC",
   "BasePath": "_content/BestStoreMVC",
   "Mode": "Default",
@@ -1506,6 +1506,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\products\\17327675.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\vinic\\source\\repos\\BestStoreMVC\\BestStoreMVC\\wwwroot\\products\\20241205005008639.jpg",
+      "SourceId": "BestStoreMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vinic\\source\\repos\\BestStoreMVC\\BestStoreMVC\\wwwroot\\",
+      "BasePath": "_content/BestStoreMVC",
+      "RelativePath": "products/20241205005008639#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o46dyjj86z",
+      "Integrity": "SB5NWCxqDKNoxEfQhNW8c6aI+Z/TNCmxx0xcYn82kfo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\20241205005008639.jpg"
     },
     {
       "Identity": "C:\\Users\\vinic\\source\\repos\\BestStoreMVC\\BestStoreMVC\\wwwroot\\products\\22866337.jpg",
@@ -7769,6 +7790,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-52PmLwagNxn93uZhmFn44ehikJm1JiKX5Bl659iqrK0="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241205005008639.jpg",
+      "AssetFile": "C:\\Users\\vinic\\source\\repos\\BestStoreMVC\\BestStoreMVC\\wwwroot\\products\\20241205005008639.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SB5NWCxqDKNoxEfQhNW8c6aI+Z/TNCmxx0xcYn82kfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 03:50:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SB5NWCxqDKNoxEfQhNW8c6aI+Z/TNCmxx0xcYn82kfo="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241205005008639.o46dyjj86z.jpg",
+      "AssetFile": "C:\\Users\\vinic\\source\\repos\\BestStoreMVC\\BestStoreMVC\\wwwroot\\products\\20241205005008639.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SB5NWCxqDKNoxEfQhNW8c6aI+Z/TNCmxx0xcYn82kfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 03:50:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o46dyjj86z"
+        },
+        {
+          "Name": "label",
+          "Value": "products/20241205005008639.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SB5NWCxqDKNoxEfQhNW8c6aI+Z/TNCmxx0xcYn82kfo="
         }
       ]
     },

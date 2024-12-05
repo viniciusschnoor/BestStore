@@ -35,7 +35,7 @@
                 <td>@product.Category</td>
                 <td>@product.Price</td>
                 <td><img src="/products/@product.ImageFileName" height="50" /></td>
-                <td>@product.CreatedAt.ToString("G (pt-BR)")</td>
+                <td>@product.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
                 <td style="white-space:nowrap">
                     <a class="btn btn-primary btn-sm" asp-controller="Products" asp-action="Edit" asp-route-id="@product.Id">Edit</a>
                     <a class="btn btn-danger btn-sm" asp-controller="Products" asp-action="Delete" asp-route-id="@product.Id">Delete</a>
