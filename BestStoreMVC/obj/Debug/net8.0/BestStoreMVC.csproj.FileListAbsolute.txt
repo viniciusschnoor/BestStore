@@ -106,3 +106,4 @@ C:\Users\vinic\source\repos\BestStoreMVC\BestStoreMVC\obj\Debug\net8.0\refint\Be
 C:\Users\vinic\source\repos\BestStoreMVC\BestStoreMVC\obj\Debug\net8.0\BestStoreMVC.pdb
 C:\Users\vinic\source\repos\BestStoreMVC\BestStoreMVC\obj\Debug\net8.0\BestStoreMVC.genruntimeconfig.cache
 C:\Users\vinic\source\repos\BestStoreMVC\BestStoreMVC\obj\Debug\net8.0\ref\BestStoreMVC.dll
+C:\Users\vinic\source\repos\BestStoreMVC\BestStoreMVC\obj\Debug\net8.0\BestStoreMVC.sourcelink.json
