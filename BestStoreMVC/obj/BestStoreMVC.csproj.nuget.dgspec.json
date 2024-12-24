@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinic\\source\\repos\\BestStoreMVC\\BestStoreMVC\\BestStoreMVC.csproj": {}
+    "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\BestStoreMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinic\\source\\repos\\BestStoreMVC\\BestStoreMVC\\BestStoreMVC.csproj": {
+    "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\BestStoreMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinic\\source\\repos\\BestStoreMVC\\BestStoreMVC\\BestStoreMVC.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\BestStoreMVC.csproj",
         "projectName": "BestStoreMVC",
-        "projectPath": "C:\\Users\\vinic\\source\\repos\\BestStoreMVC\\BestStoreMVC\\BestStoreMVC.csproj",
+        "projectPath": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\BestStoreMVC.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinic\\source\\repos\\BestStoreMVC\\BestStoreMVC\\obj\\",
+        "outputPath": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
