@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2JNMP3YqqRSFFbiGXuMbrwtTu0U4c0W/WLqK9OZcaS4=",
+  "Hash": "ENDXoBM8XoqrnRrhwarJycF7ZyWUInm+OBchYxWzhIo=",
   "Source": "BestStoreMVC",
   "BasePath": "_content/BestStoreMVC",
   "Mode": "Default",
@@ -1506,27 +1506,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\products\\17327675.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\products\\20241224192151338.jpg",
-      "SourceId": "BestStoreMVC",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\",
-      "BasePath": "_content/BestStoreMVC",
-      "RelativePath": "products/20241224192151338#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "jxis13gfh1",
-      "Integrity": "KWQmRQfBXxjbaGUAzkE3Y1aggXeAlJ+h/+pAKAF21X8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\20241224192151338.jpg"
     },
     {
       "Identity": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\products\\22866337.jpg",
@@ -7734,7 +7713,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 17:14:46 GMT"
+          "Value": "Wed, 25 Dec 2024 00:09:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7771,7 +7750,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 17:14:46 GMT"
+          "Value": "Wed, 25 Dec 2024 00:09:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7790,88 +7769,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-52PmLwagNxn93uZhmFn44ehikJm1JiKX5Bl659iqrK0="
-        }
-      ]
-    },
-    {
-      "Route": "products/20241224192151338.jpg",
-      "AssetFile": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\products\\20241224192151338.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18270"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KWQmRQfBXxjbaGUAzkE3Y1aggXeAlJ+h/+pAKAF21X8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 22:21:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KWQmRQfBXxjbaGUAzkE3Y1aggXeAlJ+h/+pAKAF21X8="
-        }
-      ]
-    },
-    {
-      "Route": "products/20241224192151338.jxis13gfh1.jpg",
-      "AssetFile": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\products\\20241224192151338.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18270"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KWQmRQfBXxjbaGUAzkE3Y1aggXeAlJ+h/+pAKAF21X8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 22:21:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jxis13gfh1"
-        },
-        {
-          "Name": "label",
-          "Value": "products/20241224192151338.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KWQmRQfBXxjbaGUAzkE3Y1aggXeAlJ+h/+pAKAF21X8="
         }
       ]
     },

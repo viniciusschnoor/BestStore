@@ -15,12 +15,15 @@ namespace BestStoreMVC.Controllers
             this.environment = environment;
         }
 
+        // INDEX
         public IActionResult Index()
         {
             var products = context.Products.OrderByDescending(p => p.Id).ToList();
             return View(products);
         }
 
+        #region CRUD
+        // CREATE
         public IActionResult Create()
         {
             return View();
@@ -68,6 +71,9 @@ namespace BestStoreMVC.Controllers
             return RedirectToAction("Index", "Products");
         }
 
+        // READ
+
+        // UPDATE
         public IActionResult Edit(int id)
         {
             var product = context.Products.Find(id);
@@ -141,5 +147,24 @@ namespace BestStoreMVC.Controllers
             context.SaveChanges();
             return RedirectToAction("Index", "Products");
         }
+
+        // DELETE
+        public IActionResult Delete(int id)
+        {
+            var product = context.Products.Find(id);
+            if (product == null)
+            {
+                return RedirectToAction("Index", "Products");
+            }
+
+            string imageFullPath = environment.WebRootPath + "/products/" + product.ImageFileName;
+            System.IO.File.Delete(imageFullPath);
+
+            context.Products.Remove(product);
+            context.SaveChanges(true);
+
+            return RedirectToAction("Index", "Products");
+        }
+        #endregion
     }
 }
