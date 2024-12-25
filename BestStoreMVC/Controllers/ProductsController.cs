@@ -8,6 +8,20 @@ namespace BestStoreMVC.Controllers
     {
         private readonly ApplicationDbContext context;
         private readonly IWebHostEnvironment environment;
+        private readonly int pageSize = 5;
+
+        //public string NameFile(ProductDto productDto)
+        //{
+        //    string newFileName = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+        //    newFileName += Path.GetExtension(productDto.ImageFile!.FileName);
+
+        //    string imageFullPath = environment.WebRootPath + "/products/" + newFileName;
+        //    using (FileStream stream = System.IO.File.Create(imageFullPath))
+        //    {
+        //        productDto.ImageFile.CopyTo(stream);
+        //    }
+        //    return newFileName;
+        //}
 
         public ProductsController(ApplicationDbContext context, IWebHostEnvironment environment)
         {
@@ -16,9 +30,27 @@ namespace BestStoreMVC.Controllers
         }
 
         // INDEX
-        public IActionResult Index()
+        public IActionResult Index(int pageIndex)
         {
-            var products = context.Products.OrderByDescending(p => p.Id).ToList();
+            IQueryable<Product> query = context.Products;
+
+            query = query.OrderByDescending(p => p.Id);
+
+            // Pagination Functionality
+            if (pageIndex < 1)
+            {
+                pageIndex = 1;
+            }
+
+            decimal count = query.Count();
+            int totalPages = (int)Math.Ceiling(count / pageSize);
+            query = query.Skip((pageIndex - 1) * pageSize).Take(pageSize);
+
+            var products = query.ToList();
+
+            ViewData["PageIndex"] = pageIndex;
+            ViewData["TotalPages"] = totalPages;
+
             return View(products);
         }
 
@@ -43,6 +75,7 @@ namespace BestStoreMVC.Controllers
             }
 
             // Save the Image File
+            //string newFileName = NameFile(productDto);
             DateTime CreateDateTime = DateTime.Now;
             string newFileName = CreateDateTime.ToString("yyyyMMddHHmmssfff");
             newFileName += Path.GetExtension(productDto.ImageFile!.FileName);
