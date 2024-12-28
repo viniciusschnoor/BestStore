@@ -30,9 +30,15 @@ namespace BestStoreMVC.Controllers
         }
 
         // INDEX
-        public IActionResult Index(int pageIndex)
+        public IActionResult Index(int pageIndex, string? search)
         {
             IQueryable<Product> query = context.Products;
+
+            // Search Functionality
+            if (search != null)
+            {
+                query = query.Where(p => p.Name.Contains(search) || p.Brand.Contains(search));
+            }
 
             query = query.OrderByDescending(p => p.Id);
 
@@ -50,6 +56,7 @@ namespace BestStoreMVC.Controllers
 
             ViewData["PageIndex"] = pageIndex;
             ViewData["TotalPages"] = totalPages;
+            ViewData["Search"] = search ?? "";
 
             return View(products);
         }

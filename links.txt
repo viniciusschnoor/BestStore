@@ -1,0 +1,19 @@
+Multipart FormData é uma estrutura de dados?
+https://pt.stackoverflow.com/questions/418026/multipart-formdata-%C3%A9-uma-estrutura-de-dados
+
+multipart/form-data não é uma estrutura de dados mas sim uma de três formas de codificação que temos no HTML:
+
+application/x-www-form-urlencoded (the default)
+multipart/form-data
+text/plain
+De uma forma geral as especificações do formato não importam para a maioria dos developers mas os pontos importantes são:
+
+Nunca usar text/plain.
+Do lado do cliente:
+
+Usar multipart/form-data quando o form inclui algum elemento do tipo <input type="file">
+Caso contrário, pode-se utilizar multipart/form-data ou application/x-www-form-urlencoded mas application/x-www-form-urlencoded é mais eficiente.
+Esta questão tem uns exemplos com bastante detalhe e a qual já recorri em algumas explicações, e também a justificação do porquê de utilizar um ou outro conforme descrevi nos pontos acima, sendo que a diferença entre os tipos de codificação está na forma como ambos lidam com caracteres não imprimíveis.
+
+-----
+

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\vinic\\documents\\github\\beststore\\beststoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\vinic\\documents\\github\\beststore\\beststoremvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\vinic\\documents\\github\\beststore\\beststoremvc\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\vinic\\documents\\github\\beststore\\beststoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\vinic\\documents\\github\\beststore\\beststoremvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\vinic\\documents\\github\\beststore\\beststoremvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\vinic\\documents\\github\\beststore\\beststoremvc\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "BestStoreMVC\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowEUAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T02:45:02.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "BestStoreMVC\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCcAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T01:17:37.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Models\\ProductDto.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Models\\ProductDto.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "BestStoreMVC\\Models\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T00:12:19.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T00:12:19.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Models\\Product.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Models\\Product.cs",
@@ -69,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Products\\Index.cshtml",
               "ToolTip": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "BestStoreMVC\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAqwCIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-25T00:05:14.536Z",
               "EditorCaption": ""
