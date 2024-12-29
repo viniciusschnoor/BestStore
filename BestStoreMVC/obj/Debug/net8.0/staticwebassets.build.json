@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dd/IaHV5I+pK7vZNZXcUAxOsvEX+b8KVM0imEik2bnk=",
+  "Hash": "Vx+TyJabCD1KZ7GPvpOPuADr9ir5sbFvOo0lJhLBe5s=",
   "Source": "BestStoreMVC",
   "BasePath": "_content/BestStoreMVC",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\images\\hero.png",
+      "SourceId": "BestStoreMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\",
+      "BasePath": "_content/BestStoreMVC",
+      "RelativePath": "images/hero#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xf48t6q0ya",
+      "Integrity": "g4IB+YZxluP5ivf1lcoQp1YOwxZ7QELBQWJplKkpXZc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero.png"
     },
     {
       "Identity": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\images\\icon.png",
@@ -2296,6 +2317,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero.png",
+      "AssetFile": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\images\\hero.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g4IB+YZxluP5ivf1lcoQp1YOwxZ7QELBQWJplKkpXZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 00:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g4IB+YZxluP5ivf1lcoQp1YOwxZ7QELBQWJplKkpXZc="
+        }
+      ]
+    },
+    {
+      "Route": "images/hero.xf48t6q0ya.png",
+      "AssetFile": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\images\\hero.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g4IB+YZxluP5ivf1lcoQp1YOwxZ7QELBQWJplKkpXZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 00:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xf48t6q0ya"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hero.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g4IB+YZxluP5ivf1lcoQp1YOwxZ7QELBQWJplKkpXZc="
         }
       ]
     },

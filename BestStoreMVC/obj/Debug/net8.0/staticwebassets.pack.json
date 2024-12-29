@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\images\\hero.png",
+      "PackagePath": "staticwebassets\\images\\hero.png"
+    },
+    {
       "Id": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\images\\icon.png",
       "PackagePath": "staticwebassets\\images\\icon.png"
     },

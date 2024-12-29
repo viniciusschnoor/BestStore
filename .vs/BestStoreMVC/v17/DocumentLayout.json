@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\vinic\\documents\\github\\beststore\\beststoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|c:\\users\\vinic\\documents\\github\\beststore\\beststoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B2C57C0-DDBA-4365-8D21-88A23C5CBEDF}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T14:26:29.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BestStoreMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T14:08:16.905Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
