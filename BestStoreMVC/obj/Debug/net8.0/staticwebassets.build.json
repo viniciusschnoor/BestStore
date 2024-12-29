@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FNQyKJXqlXF6lfOZALDAd0K738PBK/MXthE0DEdWSqk=",
+  "Hash": "xLxarw+0hbCk4c4kYJVjSHRqkZDxaDn7BzNP6fBGyOI=",
   "Source": "BestStoreMVC",
   "BasePath": "_content/BestStoreMVC",
   "Mode": "Default",
@@ -1550,12 +1550,12 @@
       "OriginalItemSpec": "wwwroot\\products\\17327675.jpg"
     },
     {
-      "Identity": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\products\\20241229122041307.jpg",
+      "Identity": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\products\\20241229194010873.jpg",
       "SourceId": "BestStoreMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\",
       "BasePath": "_content/BestStoreMVC",
-      "RelativePath": "products/20241229122041307#[.{fingerprint}]?.jpg",
+      "RelativePath": "products/20241229194010873#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1564,11 +1564,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gh3kz2q1pu",
-      "Integrity": "XIaE7IWt9Jj/oPqTiv0xbWlFLAj2Ly/M+jd3dGqxW0g=",
+      "Fingerprint": "kyf11yynhz",
+      "Integrity": "9K92Ul9wO+C6YQMmzt1Dr3KDaUS00XM25uL115zqvfE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\20241229122041307.jpg"
+      "OriginalItemSpec": "wwwroot\\products\\20241229194010873.jpg"
     },
     {
       "Identity": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\products\\22866337.jpg",
@@ -8000,8 +8000,8 @@
       ]
     },
     {
-      "Route": "products/20241229122041307.gh3kz2q1pu.jpg",
-      "AssetFile": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\products\\20241229122041307.jpg",
+      "Route": "products/20241229194010873.jpg",
+      "AssetFile": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\products\\20241229194010873.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8010,7 +8010,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14976"
+          "Value": "30110"
         },
         {
           "Name": "Content-Type",
@@ -8018,56 +8018,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XIaE7IWt9Jj/oPqTiv0xbWlFLAj2Ly/M+jd3dGqxW0g=\""
+          "Value": "\"9K92Ul9wO+C6YQMmzt1Dr3KDaUS00XM25uL115zqvfE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 15:20:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gh3kz2q1pu"
-        },
-        {
-          "Name": "label",
-          "Value": "products/20241229122041307.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XIaE7IWt9Jj/oPqTiv0xbWlFLAj2Ly/M+jd3dGqxW0g="
-        }
-      ]
-    },
-    {
-      "Route": "products/20241229122041307.jpg",
-      "AssetFile": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\products\\20241229122041307.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14976"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XIaE7IWt9Jj/oPqTiv0xbWlFLAj2Ly/M+jd3dGqxW0g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 29 Dec 2024 15:20:41 GMT"
+          "Value": "Sun, 29 Dec 2024 22:40:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8077,7 +8032,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XIaE7IWt9Jj/oPqTiv0xbWlFLAj2Ly/M+jd3dGqxW0g="
+          "Value": "sha256-9K92Ul9wO+C6YQMmzt1Dr3KDaUS00XM25uL115zqvfE="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241229194010873.kyf11yynhz.jpg",
+      "AssetFile": "C:\\Users\\vinic\\Documents\\GitHub\\BestStore\\BestStoreMVC\\wwwroot\\products\\20241229194010873.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9K92Ul9wO+C6YQMmzt1Dr3KDaUS00XM25uL115zqvfE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 22:40:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kyf11yynhz"
+        },
+        {
+          "Name": "label",
+          "Value": "products/20241229194010873.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9K92Ul9wO+C6YQMmzt1Dr3KDaUS00XM25uL115zqvfE="
         }
       ]
     },
