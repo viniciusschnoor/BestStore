@@ -5,6 +5,8 @@ using System.Linq.Expressions;
 
 namespace BestStoreMVC.Controllers
 {
+    //[Route("/Admin/[controller]/[action]")] // /Admin/Products/Edit?id=30
+    [Route("/Admin/[controller]/{action=Index}/{id?}")] // /Admin/Products/Edit/30
     public class ProductsController : Controller
     {
         private readonly ApplicationDbContext context;
