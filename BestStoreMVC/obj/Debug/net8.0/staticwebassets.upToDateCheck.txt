@@ -69,6 +69,7 @@ wwwroot\products\12643487.jpg
 wwwroot\products\15587367.jpg
 wwwroot\products\16303427.jpg
 wwwroot\products\17327675.jpg
+wwwroot\products\20241229122041307.jpg
 wwwroot\products\22866337.jpg
 wwwroot\products\35640104.jpg
 wwwroot\products\41732775.jpg
