@@ -1,0 +1,25 @@
+﻿
+@{
+}
+
+<h2>Products</h2>
+<div class="row mb-5 g-3">
+    @foreach (var product in ViewBag.Products)
+    {
+        <div class="col-lg-3" col-md-6>
+            <div class="rounded border shadow p-3 text-center h-100">
+                <img src="/products/@product.ImageFileName" class="img-fluid" style="height:200px; object-fit: contain;" alt="..." />
+                <hr />
+                <h5 class="py-2">@product.Name</h5>
+                <p>
+                    Brand: @product.Brand, Category: @product.Category
+                </p>
+                <h4 class="mb-3">@(product.Price)$</h4>
+                <a class="btn btn-primary btn-sm mb-2" href="#" role="button">Details</a>
+                <button type="button" class="btn btn-warning btn-sm mb-2">
+                    Add to Cart <i class="bi bi-cart4"></i>
+                </button>
+            </div>
+        </div>
+    }
+</div>
