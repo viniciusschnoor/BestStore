@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<Product>
+@{
     ViewData["Title"] = "Home Page";
     ViewData["HomePage"] = true;
 }
@@ -16,6 +17,30 @@
             <div class="col-md-6 text-center">
                 <img src="/images/hero.png" class="img-fluid" alt="hero" />
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-light">
+    <div class="container py-4">
+        <h2>Newest Products</h2>
+        <div class="row mb-5 g-3">
+            @foreach(var product in Model) {
+                <div class="col-lg-3" col-md-6>
+                    <div class="rounded border shadow p-3 text-center h-100">
+                        <img src="/products/@product.ImageFileName" class="img-fluid" style="height:200px; object-fit: contain;" alt="..." />
+                        <hr />
+                        <p>
+                            Brand: @product.Brand, Category: @product.Category
+                        </p>
+                        <h4 class="mb-3">@(product.Price)$</h4>
+                        <a class="btn btn-primary btn-sm mb-2" href="#" role="button">Details</a>
+                        <button type="button" class="btn btn-warning btn-sm mb-2">
+                            Add to Cart <i class="bi bi-cart4"></i>
+                        </button>
+                    </div>
+                </div>
+            }
         </div>
     </div>
 </div>
