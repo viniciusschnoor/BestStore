@@ -1,6 +1,7 @@
 ﻿using BestStoreMVC.Models;
 using BestStoreMVC.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq.Expressions;
 
 namespace BestStoreMVC.Controllers
 {
@@ -34,14 +35,14 @@ namespace BestStoreMVC.Controllers
         {
             IQueryable<Product> query = context.Products;
 
-            // Search Functionality
+            // Funcionalidade de Pesquisa
             if (search != null)
             {
                 query = query.Where(p => p.Name.Contains(search) || p.Brand.Contains(search));
             }
 
-            // Sort Functionality
-            string[] validColumns = { "Id", "Name", "Brand", "Category", "Price", "CreatedAt"};
+            // Funcionalidade de Ordenação
+            string[] validColumns = { "Id", "Name", "Brand", "Category", "Price", "CreatedAt" };
             string[] validOrderBy = { "desc", "asc" };
 
             if (!validColumns.Contains(column))
@@ -54,9 +55,106 @@ namespace BestStoreMVC.Controllers
                 orderBy = "desc";
             }
 
-            query = query.OrderByDescending(p => p.Id);
+            #region MySolution
+            // Dicionário que mapeia o nome da coluna para a expressão de ordenação.
+            Dictionary<string, Expression<Func<Product, object>>> ordenacaoDicionario = new Dictionary<string, Expression<Func<Product, object>>>
+            {
+                { "Name", p => p.Name },
+                { "Brand", p => p.Brand },
+                { "Category", p => p.Category },
+                { "Price", p => p.Price },
+                { "CreatedAt", p => p.CreatedAt },
+                { "Id", p => p.Id} // Ordenação padrão por Id
+            };
 
-            // Pagination Functionality
+            // Tenta obter a expressão de ordenação com base no nome da coluna.
+            if (ordenacaoDicionario.TryGetValue(column, out Expression<Func<Product, object>> expressaoOrdenacao))
+            {
+                // Aplica a ordenação correta (ascendente ou descendente).
+                query = orderBy == "asc"
+                    ? query.OrderBy(expressaoOrdenacao)
+                    : query.OrderByDescending(expressaoOrdenacao);
+            }
+            else
+            {
+                // Tratamento para coluna inválida (opcional, mas recomendado).
+                // Pode lançar uma exceção ou usar um log.
+                // throw new ArgumentException($"Coluna para ordenação inválida: {column}");
+                // Ou usar um valor padrão:
+                query = orderBy == "asc" ? query.OrderBy(p => p.Id) : query.OrderByDescending(p => p.Id);
+                Console.WriteLine($"Aviso: Coluna '{column}' não encontrada. Ordenando por Id.");
+            }
+            #endregion
+
+            #region CourseSolution
+            //if (column == "Name")
+            //{
+            //    if (orderBy == "asc")
+            //    {
+            //        query = query.OrderBy(p => p.Name);
+            //    }
+            //    else
+            //    {
+            //        query = query.OrderByDescending(p => p.Name);
+            //    }
+            //}
+            //else if (column == "Brand")
+            //{
+            //    if (orderBy == "asc")
+            //    {
+            //        query = query.OrderBy(p => p.Brand);
+            //    }
+            //    else
+            //    {
+            //        query = query.OrderByDescending(p => p.Brand);
+            //    }
+            //}
+            //else if (column == "Category")
+            //{
+            //    if (orderBy == "asc")
+            //    {
+            //        query = query.OrderBy(p => p.Category);
+            //    }
+            //    else
+            //    {
+            //        query = query.OrderByDescending(p => p.Category);
+            //    }
+            //} else if (column == "Price")
+            //{
+            //    if (orderBy == "asc")
+            //    {
+            //        query = query.OrderBy(p => p.Price);
+            //    }
+            //    else
+            //    {
+            //        query = query.OrderByDescending(p => p.Price);
+            //    }
+            //} else if (column == "CreatedAt")
+            //{
+            //    if (orderBy == "asc")
+            //    {
+            //        query = query.OrderBy(p => p.CreatedAt);
+            //    }
+            //    else
+            //    {
+            //        query = query.OrderByDescending(p => p.CreatedAt);
+            //    }
+            //} else
+            //{
+            //    if (orderBy == "asc")
+            //    {
+            //        query = query.OrderBy(p => p.Id);
+            //    }
+            //    else
+            //    {
+            //        query = query.OrderByDescending(p => p.Id);
+            //    }
+            //}
+            #endregion
+
+            // query = query.OrderByDescending(p => p.Id);
+
+            // Funcionalidade de Pesquisa
             if (pageIndex < 1)
             {
                 pageIndex = 1;
